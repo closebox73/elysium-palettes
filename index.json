@@ -1,0 +1,14 @@
+{
+  "palettes": [
+    {
+      "name": "Catppuccin",
+      "version": "1.0",
+      "file": "Catppuccin.zip"
+    },
+    {
+      "name": "Elysium",
+      "version": "1.0",
+      "file": "Elysium.zip"
+    }
+  ]
+}
