@@ -17,6 +17,30 @@
       "version": "1.0",
       "file": "Elysium.zip",
       "preview": "previews/Elysium.webp"
+    },
+    {
+      "name": "Gruvbox",
+      "version": "1.0",
+      "file": "Gruvbox.zip",
+      "preview": "previews/Gruvbox.webp"
+    },
+    {
+      "name": "Nord",
+      "version": "1.0",
+      "file": "Nord.zip",
+      "preview": "previews/Nord.webp"
+    },
+    {
+      "name": "Rose Pine",
+      "version": "1.0",
+      "file": "Rose Pine.zip",
+      "preview": "previews/Rose Pine.webp"
+    },
+    {
+      "name": "Solarized",
+      "version": "1.0",
+      "file": "Solarized.zip",
+      "preview": "previews/Solarized.webp"
     }
   ]
 }
