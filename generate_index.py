@@ -8,6 +8,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 PALETTE_DIR = BASE_DIR / "palettes"
+PREVIEW_DIR = BASE_DIR / "previews"
 INDEX_FILE = BASE_DIR / "index.json"
 
 
@@ -95,11 +96,28 @@ def scan_palettes():
                     )
                 )
 
+                preview_name = (
+                    zip_path.stem + ".webp"
+                )
+
+                preview_path = (
+                    PREVIEW_DIR / preview_name
+                )
+
+                if not preview_path.exists():
+                    raise ValueError(
+                        f"preview not found: {preview_name}"
+                    )
+
             palettes.append(
                 {
                     "name": name,
                     "version": version,
                     "file": zip_path.name,
+                    "preview": (
+                        "previews/"
+                        + preview_name
+                    ),
                 }
             )
 

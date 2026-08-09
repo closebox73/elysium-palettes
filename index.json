@@ -3,12 +3,14 @@
     {
       "name": "Catppuccin",
       "version": "1.0",
-      "file": "Catppuccin.zip"
+      "file": "Catppuccin.zip",
+      "preview": "previews/Catppuccin.webp"
     },
     {
       "name": "Elysium",
       "version": "1.0",
-      "file": "Elysium.zip"
+      "file": "Elysium.zip",
+      "preview": "previews/Elysium.webp"
     }
   ]
 }
