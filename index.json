@@ -7,6 +7,12 @@
       "preview": "previews/Catppuccin.webp"
     },
     {
+      "name": "Dracula",
+      "version": "1.0",
+      "file": "Dracula.zip",
+      "preview": "previews/Dracula.webp"
+    },
+    {
       "name": "Elysium",
       "version": "1.0",
       "file": "Elysium.zip",
