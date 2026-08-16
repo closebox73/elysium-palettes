@@ -47,6 +47,12 @@
       "version": "1.0",
       "file": "Solarized.zip",
       "preview": "previews/Solarized.webp"
+    },
+    {
+      "name": "Tokyo Night",
+      "version": "1.0",
+      "file": "Tokyo Night.zip",
+      "preview": "previews/Tokyo Night.webp"
     }
   ]
 }
